@@ -13,6 +13,7 @@ func main() {
 	fmt.Println("Umur : ", age)
 	fmt.Println("Jenis Kelamin : ", gender)
 	fmt.Println("Menikah : ", isMarriedCheck(isMarried))
+	fmt.Println(sayHello(name, "Siang"))
 
 	name = "Eko Ari Iswanto"
 	age = 38
@@ -22,6 +23,7 @@ func main() {
 	fmt.Println("Umur : ", age)
 	fmt.Println("Jenis Kelamin : ", gender)
 	fmt.Println("Menikah : ", isMarriedCheck(isMarried))
+	fmt.Println(sayHello(name, "Siang"))
 
 	name = "Ela Asmani"
 	age = 48
@@ -32,6 +34,7 @@ func main() {
 	fmt.Println("Umur : ", age)
 	fmt.Println("Jenis Kelamin : ", gender)
 	fmt.Println("Menikah : ", isMarriedCheck(isMarried))
+	fmt.Println(sayHello(name, "Siang"))
 
 	name = "Razenry Aretha Silverine"
 	fmt.Println(sayHello(name, "Siang"))	
